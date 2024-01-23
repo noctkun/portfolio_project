@@ -8,8 +8,6 @@ document.querySelectorAll('.navbar a').forEach(anchor => {
             top: offsetTop,
             behavior: 'smooth'
         });
-
-        // Add a time delay if needed
         setTimeout(() => {
              window.scrollTo({
                  top: offsetTop,
